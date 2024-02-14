@@ -1,0 +1,11 @@
+1. CREATE TABLE Employee(id SERIAL NOT NULL, name VARCHAR(50) NOT NULL, birthday DATE NOT NULL,email VARCHAR(100));
+2. UPDATE employee SET name = 'KEREM', email = 'kerem@gmail.com' WHERE id = 2; 
+3. UPDATE employee SET name = 'KEREM', email = 'kerem@gmail.com' WHERE id = 3;
+4. UPDATE employee SET name = 'KEREM', email = 'kerem@gmail.com' WHERE id = 4;
+5. UPDATE employee SET name = 'KEREM', email = 'kerem@gmail.com' WHERE id = 5;
+6. UPDATE employee SET name = 'KEREM', email = 'kerem@gmail.com' WHERE id = 1;
+7. DELETE FROM employee WHERE id = 1;
+8. DELETE FROM employee WHERE id = 2;
+9. DELETE FROM employee WHERE id = 3;
+10. DELETE FROM employee WHERE id = 4;
+11. DELETE FROM employee WHERE id = 5;
